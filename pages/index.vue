@@ -4,6 +4,7 @@
     <Nope />
     <Profiles />
     <NoChange />
+    <RealChange />
   </main>
 </template>
 

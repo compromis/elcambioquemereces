@@ -20,7 +20,7 @@
   .big-nope {
     color: $yellow;
     font-weight: 900;
-    font-size: clamp(3rem, 10vw, 20rem);
+    font-size: clamp(9rem, 12vw, 24rem);
     letter-spacing: -.03em;
     line-height: 1;
   }
@@ -28,7 +28,7 @@
   .text {
     color: $white;
     font-weight: 900;
-    font-size: clamp(1.5rem, 5vw, 4rem);
+    font-size: clamp(2.5rem, 5vw, 4rem);
     letter-spacing: -.03em;
     line-height: 1;
   }

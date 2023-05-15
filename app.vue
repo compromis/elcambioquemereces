@@ -17,6 +17,7 @@ onMounted(() => {
       wrapper: '#__nuxt',
       smooth: 1,
       effects: true,
+      normalizeScroll: true
     })
   }, main.value)
 })

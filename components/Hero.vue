@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <section class="hero">
-      <div class="logo" data-lag=".5">
+      <div class="logo">
         <img src="~/assets/images/pp.svg" alt="PP" />
       </div>
-      <div class="misclaim" data-lag=".8">
+      <div class="misclaim">
         <img src="~/assets/images/slogan.svg" alt="¿El cambio que mereces?" />
       </div>
     </section>
@@ -20,16 +20,16 @@
     text-align: center;
 
     img {
-      width: 8em;
+      width: 7em;
     }
   }
 
   .misclaim {
     text-align: center;
-    margin-top: -2rem;
   
     img {
-      width: 90%;
+      width: 100%;
+      max-width: 40rem;
     }
   }
 </style>
