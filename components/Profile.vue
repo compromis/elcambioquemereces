@@ -24,11 +24,10 @@ defineProps({
 <style lang="scss" scoped>
   .profile {
     display: grid;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     flex-shrink: 0;
     place-items: center;
-    border-radius: 2rem;
 
     &-wrapper {
       position: relative;
@@ -73,6 +72,30 @@ defineProps({
         top: -8%;
         left: 1%;
         scale: 1.1;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    .profile {
+      margin: 5rem 0;
+
+      &-picture {
+        position: relative;
+        top: unset;
+        left: unset;
+        z-index: 1;
+        transform: none !important;
+      }
+
+      &-card {
+        position: relative;
+        margin-top: -2rem;
+        z-index: 10;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
       }
     }
   }

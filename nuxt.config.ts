@@ -23,7 +23,9 @@ export default defineNuxtConfig({
         { hid: 'twitter:title', property: 'twitter:title', content: title.val },
         { hid: 'twitter:description', property: 'twitter:description', content: description.val },
         { hid: 'twitter:image', property: 'twitter:image', content: url.val + 'images/ogimage.png' },
-        { hid: 'twitter:url', property: 'twitter:url', content: url.val }
+        { hid: 'twitter:url', property: 'twitter:url', content: url.val },
+        { name: 'theme-color', content: '#344786' },
+        { name: 'color-scheme', content: 'light only' }
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: 'https://compromis.net/sub/icons/favicon.ico' },

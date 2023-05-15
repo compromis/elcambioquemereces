@@ -20,8 +20,7 @@ onMounted(() => {
         trigger: highlight,
         toggleClass: "active",
         start: "center center",
-        end: "+=80",
-        markers: true
+        end: "+=80"
       }
     })
   })

@@ -102,7 +102,6 @@ onMounted(() => {
             containerAnimation: isMobile ? false : container.value,
             start: isMobile ? "top bottom" : "left center",
             toggleActions: "play none none reset",
-            markers: true
           }
         })
       })
@@ -121,7 +120,6 @@ onMounted(() => {
             containerAnimation: isMobile ? false : container.value,
             start: isMobile ? "top bottom" : "left center",
             toggleActions: "play none none reset",
-            markers: true
           }
         })
       })
@@ -196,6 +194,7 @@ onMounted(() => {
 @include media-breakpoint-down(md) {
   .profiles {
     flex-direction: column;
+    overflow: unset;
   }
 }
 </style>
