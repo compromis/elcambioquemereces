@@ -1,4 +1,5 @@
-import { title, description, keywords, url } from './content/meta'
+const title  = 'PP ¿El cambio que mereces? - Compromís'
+const description = 'El PP no es el cambio que mereces, és el mateix PP corrupte i malbaratador de sempre.'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
@@ -9,21 +10,21 @@ export default defineNuxtConfig({
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { hid: 'description', name: 'description', content: description.val },
-        { hid: 'keywords', name: 'keywords', content: keywords.val },
+        { hid: 'description', name: 'description', content: description },
+        { hid: 'keywords', name: 'keywords', content: 'el cambio que mereces, pp, compromís, corrupcion, elecciones' },
         { hid: 'robots', name: 'robots', content: 'index, follow' },
         { name: 'format-detection', content: 'telephone=no' },
         { hid: 'og:locale', property: 'og:locale', content: 'ca' },
         { hid: 'og:type', property: 'og:type', content: 'website' },
-        { hid: 'og:description', property: 'og:description', content: description.val },
-        { hid: 'og:image', property: 'og:image', content: url.val + 'images/ogimage.png' },
-        { hid: 'og:url', property: 'og:url', content: url.val },
+        { hid: 'og:description', property: 'og:description', content: description },
+        { hid: 'og:image', property: 'og:image', content: 'https://elcambioquemereces.com/images/ogimage.png' },
+        { hid: 'og:url', property: 'og:url', content: 'https://elcambioquemereces.com' },
         { hid: 'twitter:site', property: 'twitter:site', content: '@compromis' },
         { hid: 'twitter:card', property: 'twitter:card', content: 'summary_large_image' },
-        { hid: 'twitter:title', property: 'twitter:title', content: title.val },
-        { hid: 'twitter:description', property: 'twitter:description', content: description.val },
-        { hid: 'twitter:image', property: 'twitter:image', content: url.val + 'images/ogimage.png' },
-        { hid: 'twitter:url', property: 'twitter:url', content: url.val },
+        { hid: 'twitter:title', property: 'twitter:title', content: title },
+        { hid: 'twitter:description', property: 'twitter:description', content: description },
+        { hid: 'twitter:image', property: 'twitter:image', content: 'https://elcambioquemereces.com/images/ogimage.png' },
+        { hid: 'twitter:url', property: 'twitter:url', content: 'https://elcambioquemereces.com' },
         { name: 'theme-color', content: '#344786' },
         { name: 'color-scheme', content: 'light only' }
       ],
@@ -37,20 +38,6 @@ export default defineNuxtConfig({
   },
 
   css: ['@compromis/blobby/scss/blobby.scss'],
-
-  modules: [
-    '@nuxtjs/i18n'
-  ],
-
-  i18n: {
-    locales: [
-      { code: 'val', file: 'val.js', name: 'Valencià', isCatchallLocale: true },
-      { code: 'cas', file: 'cas.js', name: 'Castellano' }
-    ],
-    lazy: true,
-    langDir: 'lang',
-    defaultLocale: 'val'
-  },
 
   vite: {
     css: {

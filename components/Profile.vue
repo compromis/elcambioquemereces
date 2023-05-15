@@ -41,7 +41,8 @@ defineProps({
       color: $blue;
       border-radius: 1rem;
       font-size: 1.25rem;
-      margin-top: 30vh;
+      margin-top: 25vh;
+      opacity: 0;
 
       :deep(p:last-child) {
         margin-bottom: 0;
@@ -65,6 +66,7 @@ defineProps({
         top: 0;
         left: 0;
         z-index: 10;
+        opacity: 0;
       }
 
       &-shadow {
@@ -72,6 +74,7 @@ defineProps({
         top: -8%;
         left: 1%;
         scale: 1.1;
+        opacity: 0;
       }
     }
   }

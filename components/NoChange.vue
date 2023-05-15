@@ -7,7 +7,7 @@
           <strong>És el mateix PP de sempre</strong> i ni tan sols
           s’han molestat en canviar
           les cares principals, mostra de la poca vergonya i respecte
-          que tenen front al poble valencià.
+          que tenen cap al poble valencià.
         </p>
       </HighlightedText>
     </div>

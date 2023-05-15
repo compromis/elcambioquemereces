@@ -33,21 +33,16 @@ onMounted(() => {
       <div class="container">
         <HighlightedText id="realchange">
           <p>
-            <strong>El vertader canvi va ser al 2015</strong>,
-            quan els valencians i valencianes vam eixir primer als carrers
-            i després a les urnes per <strong>acabar amb 20 anys de corrupció</strong>, desfeta i vergonya.
+            <strong>El canvi real va ser el 2015</strong>, quan els valencians i valencianes vam eixir
+            primer als carrers i després a les urnes per a <strong>acabar amb 20 anys de corrupció</strong>, desfeta i vergonya.
           </p>
           <p>
-            Des d'aleshores, <strong>hem revertit les retallades</strong>,
-            hem dignificat les institucions valencianes i hem millorat els serveis públics.
-            <strong>Més professorat, més ajudes a la dependència</strong>, hem tornat a nivells
-            de llocs de treball anteriors a 2008 i hem posat en marxa polítiques
-            valentes en mobilitat sostenible.
+            Des d'aleshores, <strong>hem revertit les retallades</strong>, hem dignificat les institucions valencianes i
+            hem millorat els serveis públics. <strong>Més professorat, més ajudes a la dependència i més gent treballant que mai</strong>.
           </p>
           <p>
-            <strong>Hem passat de ser coneguts per la corrupció i el malbaratament a ser
-            exemple de bona gestió</strong>. I tot per posar a les persones al centre de les
-            nostres polítiques. Per centrar-nos en tot el que importa.
+            Hem passat <strong>de ser coneguts per la corrupció i el malbaratament a ser exemple de bona gestió</strong>,
+            per posar les persones al centre de les nostres polítiques. Per a centrar-nos en tot el que importa.
           </p>
         </HighlightedText>
       </div>
@@ -80,6 +75,14 @@ onMounted(() => {
       --text-background: #{$orange};
       --highlight-color: #{$orange};
       --highlight-background: #{$white};
+    }
+  }
+
+  .background {
+    background-color: $orange;
+
+    img {
+      width: 100%;
     }
   }
 

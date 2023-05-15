@@ -5,7 +5,7 @@
         No.
       </p>
       <div class="text" data-lag=".8">
-        És el mateix PP corrupte, mafiós i despilfarrador de sempre.
+        És el mateix PP corrupte<br /> i malbaratador de sempre.
       </div>
     </section>
   </div>

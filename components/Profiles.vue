@@ -133,39 +133,33 @@ onMounted(() => {
     <Profile class="profile-1" picture="mazon">
       <h2>Carlos Mazón</h2>
       <p>
-        No és cap renovació. De fet, és el “fill polític”
-        de Zaplana, que, per a qui no el recorde (quina sort!),
-        és el pare de la corruppció valenciana i principal acusat
-        del caso Erial per blanquejar molts milions d’euros
-        de comissions guanyades per corromper plans publics com les ITV 
-        (de les quals s’encarregava Mazón) i el Plan Eólicode la Generalitat Valenciana.
+        No és cap renovació. De fet, és el “fill polític” de Zaplana.
+        Per a qui no el recorde (quina sort!), és el pare de la corruppció valenciana
+        i principal acusat al cas Erial per blanquejar milions
+        d’euros de comissions guanyades quan van privatitzar les ITV
+        (de les quals s’encarregava Mazón, per cert) perquè es forraren els seus amics.
       </p>
     </Profile>
     <Profile class="profile-2 profile-card-inside" picture="catala">
       <h2>Mª José Català</h2>
       <p>
-        Tampoc és una cara nova. De fet, ja ha format part de governs valencians,
-        en concret, del més corrupte de la història, el de Paco Camps.
-        No podem enumerar tots els seus casos de corruppció ja que hauriem
-        de fer una altra web, però podem destacar les millors jugades de MJ Català
-        com a consellera de Educació: voler cobrar als xiquets per dur
-        <em>tuppers</em> per dinar a l’escola i per privatitzar la universitat VIU 
-        (venentla a un preu ridícul) per després ser contractada com a profesora!
-        (Quina sorpresa!)
+        Tampoc és una cara nova. De fet, ha sigut la portaveu i consellera d’Educació
+        de la Generalitat que ha fet més retallades. Podem destacar les millors jugades
+        de MJ Català com a consellera d'Educació: tirar a 5.000 mestres al carrer,
+        voler cobrar als xiquets per dur <em>tuppers</em> per a dinar a l’escola i privatitzar
+        la universitat VIU venent-la a un preu ridícul per a després ser contractada com a professora!
+        (quina sorpresa!)
       </p>
     </Profile>
     <Profile class="profile-3 profile-card-inside" picture="fabra">
       <h2>Alberto Fabra</h2>
       <p>
-        Per últim, en Castelló també presenten un "<em>cambio</em>": Alberto Fabra.
-        No Fabra el <em>bueno</em>, sino el <em>malo</em>.
-        Encara que no sabem ben bé quin és quin.
+        Per últim, en Castelló també presenten un "cambio": el no del tot honorable expresident Alberto Fabra.
       </p>
       <p>
-        Amb este Fabra com a President es van cometre les majors retallades
-        de la història del nostre país: educació, serveis socials, sanitat
-        i tots els serveis públics. També va ser el responsable i executor de tancar
-        la radiotelevisió pública valenciana, deixant-nos sense l'únic servei
+        Amb este Fabra com a president es van cometre les majors retallades de la història del nostre país:
+        educació, serveis socials, sanitat i tots els serveis públics. També va ser el responsable i
+        executor de tancar la radiotelevisió pública valenciana, deixant-nos sense l'únic servei
         de comunicació valencià i en valencià.
       </p>
     </Profile>
