@@ -5,13 +5,13 @@ const description = 'El PP no es el cambio que mereces, és el mateix PP corrupt
 export default defineNuxtConfig({
   app: {
     head: {
-      title: title.val,
+      title: title,
       htmlAttrs: { lang: 'ca' },
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { hid: 'description', name: 'description', content: description },
-        { hid: 'keywords', name: 'keywords', content: 'el cambio que mereces, pp, compromís, corrupcion, elecciones' },
+        { hid: 'keywords', name: 'keywords', content: 'el cambio que mereces, pp, compromís, corrupción, elecciones autonomicas, comunidad valenciana, pais valencia, valencia' },
         { hid: 'robots', name: 'robots', content: 'index, follow' },
         { name: 'format-detection', content: 'telephone=no' },
         { hid: 'og:locale', property: 'og:locale', content: 'ca' },
@@ -29,10 +29,9 @@ export default defineNuxtConfig({
         { name: 'color-scheme', content: 'light only' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: 'https://compromis.net/sub/icons/favicon.ico' },
-        { rel: 'icon', type: 'image/png', sizes: '32x32', href: 'https://compromis.net/sub/icons/favicon32.png' },
-        { rel: 'icon', type: 'image/png', sizes: '192x192', href: 'https://compromis.net/sub/icons/favicon192.png' },
-        { rel: 'stylesheet', href: 'https://compromis.net/sub/fonts/manrope.css?variable' },
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/images/favicon32.png' },
+        { rel: 'icon', type: 'image/png', sizes: '192x192', href: '/images/favicon192.png' }
       ],
     }
   },
