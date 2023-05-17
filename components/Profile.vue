@@ -25,6 +25,7 @@ defineProps({
   .profile {
     display: grid;
     min-height: 100vh;
+    min-height: 100svh;
     width: 100vw;
     flex-shrink: 0;
     place-items: center;
@@ -81,7 +82,7 @@ defineProps({
 
   @include media-breakpoint-down(md) {
     .profile {
-      margin: 5rem 0;
+      margin: 4rem 0;
 
       &-picture {
         position: relative;

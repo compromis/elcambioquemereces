@@ -39,8 +39,8 @@ onMounted(() => {
         ease: "elastic",
         scrollTrigger: {
           trigger: '.profile-1',
-          start: "top center",
-          toggleActions: "play none none reset",
+          start: isMobile ? "top 80%" : "top center",
+          toggleActions: "play none none reset"
         }
       })
       gsap.to('.profile-1 .profile-picture-cutout', {
@@ -52,7 +52,7 @@ onMounted(() => {
         ease: "elastic",
         scrollTrigger: {
           trigger: '.profile-1',
-          start: "top center",
+          start: isMobile ? "top 80%" : "top center",
           toggleActions: "play none none reset"
         }
       })
@@ -65,7 +65,7 @@ onMounted(() => {
         ease: "elastic",
         scrollTrigger: {
           trigger: '.profile-1',
-          start: "top center",
+          start: isMobile ? "top 80%" : "top center",
           toggleActions: "play none none reset"
         }
       })
@@ -169,7 +169,6 @@ onMounted(() => {
 <style lang="scss">
 .profiles {
   display: flex;
-  overflow: hidden;
 }
 
 .profile-2 {
@@ -188,7 +187,6 @@ onMounted(() => {
 @include media-breakpoint-down(md) {
   .profiles {
     flex-direction: column;
-    overflow: unset;
   }
 }
 </style>
