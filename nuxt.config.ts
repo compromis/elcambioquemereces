@@ -38,6 +38,10 @@ export default defineNuxtConfig({
 
   css: ['@compromis/blobby/scss/blobby.scss'],
 
+  modules: [
+    'nuxt-gtag'
+  ],
+
   gtag: {
     id: 'G-LDPZQVQR38'
   },
