@@ -1,7 +1,9 @@
 <template>
   <section class="no-change">
     <div class="container">
-      <img src="~/assets/images/mjballot.png" class="ballot" alt="Papereta de les eleccions autonomiques 2011 amb Maria Jose Català en mig de polítics corruptes del PP" />
+      <div class="ballot">
+        <img src="~/assets/images/mjballot.png" alt="Papereta de les eleccions autonomiques 2011 amb Maria Jose Català en mig de polítics corruptes del PP" />
+      </div>
       <HighlightedText id="nochange" :end="400">
         <p>
           Com podeu veure, el PP no ofereix cap canvi.
@@ -38,5 +40,9 @@
     display: block;
     max-width: 600px;
     margin: 0 auto;
+
+    img {
+      width: 100%;
+    }
   }
 </style>
