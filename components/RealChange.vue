@@ -42,7 +42,10 @@ onMounted(() => {
           </p>
           <p>
             Hem passat <strong>de ser coneguts per la corrupció i el malbaratament a ser exemple de bona gestió</strong>,
-            per posar les persones al centre de les nostres polítiques. Per a centrar-nos en tot el que importa.
+            per posar les persones al centre de les nostres polítiques. Per a centrar-nos en <a href="https://pertotelqueimporta.com">tot el que importa</a>.
+          </p>
+          <p>
+            <a href="https://pertotelqueimporta.com">pertotelqueimporta.com</a>
           </p>
         </HighlightedText>
       </div>
@@ -75,6 +78,10 @@ onMounted(() => {
       --text-background: #{$orange};
       --highlight-color: #{$orange};
       --highlight-background: #{$white};
+    }
+
+    a {
+      color: $white;
     }
   }
 

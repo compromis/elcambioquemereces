@@ -6,7 +6,8 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "nuxt": "^3.3.3"
+    "nuxt": "^3.3.3",
+    "nuxt-gtag": "^0.5.7"
   },
   "dependencies": {
     "@compromis/blobby": "^1.1.9",

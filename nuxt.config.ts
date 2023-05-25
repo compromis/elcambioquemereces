@@ -38,6 +38,10 @@ export default defineNuxtConfig({
 
   css: ['@compromis/blobby/scss/blobby.scss'],
 
+  gtag: {
+    id: 'G-LDPZQVQR38'
+  },
+
   vite: {
     css: {
       preprocessorOptions: {
